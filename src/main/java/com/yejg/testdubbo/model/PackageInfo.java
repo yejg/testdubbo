@@ -1,4 +1,4 @@
-package cn.cairh.testdubbo.model;
+package com.yejg.testdubbo.model;
 
 import java.util.Map;
 

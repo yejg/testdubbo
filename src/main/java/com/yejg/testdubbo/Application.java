@@ -1,4 +1,4 @@
-package cn.cairh.testdubbo;
+package com.yejg.testdubbo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

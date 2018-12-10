@@ -1,4 +1,4 @@
-package cn.cairh.testdubbo.service;
+package com.yejg.testdubbo.service;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -11,9 +11,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import javax.annotation.PostConstruct;
 
-import cn.cairh.testdubbo.model.PackageInfo;
-import cn.cairh.testdubbo.util.JsonUtil;
-import cn.cairh.testdubbo.util.PackageUtil;
+import com.yejg.testdubbo.model.PackageInfo;
+import com.yejg.testdubbo.util.JsonUtil;
+import com.yejg.testdubbo.util.PackageUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
@@ -96,7 +96,7 @@ public class DubboInvokeService {
         }
 		/*Map<String,Object> map = new HashMap<String, Object>();
 		map.put("branch_no", "100");
-		Object result = genericService.$invoke(mymethod, new String[] {"com.cairh.xpe.context.usercenter.model.Custinfo"}, new Object[] {map}); 
+		Object result = genericService.$invoke(mymethod, new String[] {"com.yejg.xpe.context.usercenter.model.Custinfo"}, new Object[] {map});
 		System.err.println(ToStringBuilder.reflectionToString(result, ToStringStyle.MULTI_LINE_STYLE));*/
         return result;
     }
@@ -191,9 +191,9 @@ public class DubboInvokeService {
     }
 
     public static void main(String[] args) throws Exception {
-		/*packageInfoList= getPackageInfo("com.cairh.xpe.dubbo.user.api");
+		/*packageInfoList= getPackageInfo("com.yejg.xpe.dubbo.user.api");
 		List<String> params = new  ArrayList<String>();
 		params.add("100222");
-		invokeDubbo("com.cairh.xpe.dubbo.user.api.ICustinfoMagService","qryCustinfoById",params);*/
+		invokeDubbo("com.yejg.xpe.dubbo.user.api.ICustinfoMagService","qryCustinfoById",params);*/
     }
 }

@@ -15,7 +15,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
-		<start-class>cn.cairh.testdubbo.Application</start-class>
+		<start-class>com.yejg.testdubbo.Application</start-class>
 		<elastic-job.version>2.1.1</elastic-job.version>
 	</properties>
 
@@ -177,7 +177,7 @@
                         <manifest>  
                             <addClasspath>true</addClasspath>  
                             <classpathPrefix></classpathPrefix>
-                            <mainClass>cn.cairh.testdubbo.Application</mainClass>  
+                            <mainClass>com.yejg.testdubbo.Application</mainClass>
                         </manifest>  
 					   <manifestEntries>
 						<Class-Path>xpe-context-1.0.jar xpe-core-1.0.jar xpe-dubbo-user-api.jar</Class-Path>

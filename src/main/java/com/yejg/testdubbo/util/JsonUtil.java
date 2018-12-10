@@ -1,4 +1,4 @@
-package cn.cairh.testdubbo.util;
+package com.yejg.testdubbo.util;
 
 import java.io.IOException;
 import java.util.List;

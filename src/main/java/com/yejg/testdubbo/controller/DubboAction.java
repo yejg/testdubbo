@@ -1,13 +1,13 @@
-package cn.cairh.testdubbo.controller;
+package com.yejg.testdubbo.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import cn.cairh.testdubbo.service.DubboInvokeService;
-import cn.cairh.testdubbo.model.PackageInfo;
-import cn.cairh.testdubbo.util.JsonUtil;
+import com.yejg.testdubbo.service.DubboInvokeService;
+import com.yejg.testdubbo.model.PackageInfo;
+import com.yejg.testdubbo.util.JsonUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

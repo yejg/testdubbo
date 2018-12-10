@@ -1,4 +1,4 @@
-package cn.cairh.testdubbo.controller;
+package com.yejg.testdubbo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

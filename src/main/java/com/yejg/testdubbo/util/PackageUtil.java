@@ -1,4 +1,4 @@
-package cn.cairh.testdubbo.util;
+package com.yejg.testdubbo.util;
 
 import java.io.File;
 import java.net.URL;
@@ -16,7 +16,7 @@ public class PackageUtil {
     private static final Logger logger = LoggerFactory.getLogger(PackageUtil.class);
 
     public static void main(String[] args) throws Exception {
-        String packageName = "com.cairh.xpe.dubbo.user.api";
+        String packageName = "com.yejg.xpe.dubbo.user.api";
         List<String> classNames = getClassName(packageName, false);
         if (classNames != null) {
             for (String className : classNames) {
