@@ -164,7 +164,7 @@ public class PackageUtil {
             for (int i = 0; i < urls.length; i++) {
                 URL url = urls[i];
                 String urlPath = url.getPath();
-                logger.info("getClassNameByJars-urlPath-----------------:" + urlPath);
+                // logger.info("getClassNameByJars-urlPath-----------------:" + urlPath);
                 // 不必搜索classes文件夹 
                 if (urlPath.endsWith("classes/")) {
                     continue;
