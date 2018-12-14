@@ -17,7 +17,8 @@ tmp/
 *~.nib
 .settings/
 .classpath
-
+.project
 logs/
+apiLib/*.jar
 
 /target/

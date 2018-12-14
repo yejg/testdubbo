@@ -30,3 +30,5 @@ dubbo接口测试工具
 执行【mvn clean package】，然后在target/testdubbo目录就有可执行的东西，执行使用start.bat即可
 
 
+### 感谢
+感谢同事(Maple)提供的初版本代码
