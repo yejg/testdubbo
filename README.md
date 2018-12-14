@@ -29,6 +29,33 @@ dubbo接口测试工具
 - 打包
 执行【mvn clean package】，然后在target/testdubbo目录就有可执行的东西，执行使用start.bat即可
 
+### 关于bat/sh运行
+项目里面提供的是java -cp的方式，即
+> java -cp "testdubbo-0.0.1-SNAPSHOT.jar;apiLib/*;lib/*" com.yejg.testdubbo.Application
+
+
+如果想要用java -jar的方式，则需要做如下调整：
+1.  修改pom。xml的maven-jar-plugin部分配置，改成
+```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
+    <configuration>
+        <archive>
+            <manifest>
+                <addClasspath>true</addClasspath>
+                <classpathPrefix>lib</classpathPrefix>
+                <mainClass>com.yejg.testdubbo.Application</mainClass>
+            </manifest>
+        </archive>
+    </configuration>
+</plugin>
+```
+2.  启动命令改成：
+> java -Xbootclasspath/a:apiLib/api1.jar;api2.jar -jar testdubbo-0.0.1-SNAPSHOT.jar
+
+linux场景下，jar之间用 : 分隔
+
 
 ### 感谢
 感谢同事(Maple)提供的初版本代码
