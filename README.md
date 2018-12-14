@@ -14,7 +14,7 @@ dubbo接口测试工具
 其实原理很简单，主要就2点：  
 
 1.  解析jar，从中找到配置的目录的类和方法
-2.  利用dubbo的 [泛化调用](http://dubbo.apache.org/zh-cn/docs/user/demos/generic-service.html) dubboInvokeService.invokeDubbo 调用对应的dubbo接口
+2.  利用dubbo的 [泛化调用](http://dubbo.apache.org/zh-cn/docs/user/demos/generic-service.html) dubboInvokeService.$invokeDubbo 调用对应的dubbo接口
 
 
 ### 配置
