@@ -31,7 +31,7 @@ dubbo接口测试工具
 
 ### 关于bat/sh运行
 项目里面提供的是java -cp的方式，即
-> java -cp "testdubbo-0.0.1-SNAPSHOT.jar;apiLib/*;lib/*" com.yejg.testdubbo.Application
+> java -cp "testdubbo-0.0.1-SNAPSHOT.jar;apiLib/\*;lib/\*" com.yejg.testdubbo.Application
 
 
 如果想要用java -jar的方式，则需要做如下调整：
